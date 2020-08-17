@@ -1,7 +1,6 @@
-# Bike-REntal-DB-Management-System
+# Bike-Rental-DB-Management-System
                  Bike-Rental-Database-Management-System
 
-# Bike-Rental-Database-Management-System
 A simple, full-stack web application to rent bikes online.
 
 ### Home Page
