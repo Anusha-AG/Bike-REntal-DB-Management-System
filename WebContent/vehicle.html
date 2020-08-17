@@ -1,0 +1,51 @@
+<html>
+    <head>
+    <title>vehicle</title>
+    </head>
+    <style>
+        body{
+         background-repeat: no-repeat;
+            
+            background-position: center;
+           background-size:cover;
+            background-color: white;
+            color: white;
+            font-family: cursive;
+            padding: 100px;
+        }
+        input{
+            border-radius: 50px;
+            box-shadow: 30;
+            font-family: inherit;
+        }
+        button{
+            font-family: cursive;
+            border-radius: 50px;
+            background-color: ghostwhite;
+        }
+        button:hover{
+            background-color: azure;
+            font-family: fantasy;
+        }
+    </style>
+        
+    <body style="background-image: url(add.jpg)">
+    <form id='register-form' action="vehicle.jsp" method="post">
+        <center>
+            <label>Plate_no</label>
+            <input name="pl" type="text" ><br><br>
+            <label>Vehicle color</label> 
+            <input name="clr" type="text"><br><br>
+            <label>Model</label>
+            <input name="mdl" type="text"><br><br>
+            <label>Make</label>
+            <input name="make" type="text"><br><br>
+            <label>Gear/Non-gear</label>
+            <input name="gear" type="text"><br><br>
+            <label>Price per hour</label>
+            <input name="phr" type="text"><br><br>
+            <a style="color: black" ><button>Submit</button></a>&nbsp;
+            <button type="reset">Cancel</button>
+        </center>
+    </body>
+</html>

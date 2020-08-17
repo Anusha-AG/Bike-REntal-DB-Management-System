@@ -1,0 +1,55 @@
+<html>
+    <head>
+    <title>signup page</title>
+    </head>
+    <style>
+        body{
+            background-repeat: no-repeat;
+            background-position: center;
+           background-size:cover;
+           color: Gainsboro ;
+            font-family: cursive;
+            padding: 100px;
+        }
+        input{
+            background-color: ghostwhite;
+            shape-inside: polygon();
+            border-radius: 50px;
+            box-shadow: 30;
+            font-family: inherit;
+        }
+        button{
+            font-family: cursive;
+            border-radius: 50px;
+            background-color: ghostwhite;
+        }
+        button:hover{
+            background-color: black;
+            font-family: fantasy;
+            color: ghostwhite;
+        }
+    </style>
+        
+    <body style="background-image: url(sign_up.jpg)">
+    <form id='register-form' action="signup.jsp" method="post">
+        <center>
+            <label>Enter Your First Name:</label>
+            <input name="fnam" type="text" ><br><br>
+            <label>Enter Your Second Name:</label>
+            <input name="snam" type="text" ><br><br>
+            <label>Enter Your EmailID:</label> 
+            <input name="em" type="email"><br><br>
+            <label>Create new Password:</label>
+            <input name="pass" type="password"><br><br>
+            <label>Enter DOB:</label>
+            <input name="dob" type="date"><br><br>
+            <label>Phone Number:</label>
+            <input name="num" type="text"><br><br>
+            <label>DL number:</label>
+            <input name="dl" type="text"><br><br>
+    
+            <a href="sign_in.html" style="color: black" ><button>Submit</button></a>&nbsp;
+           <button type="reset">Cancel</button>
+        </center>
+    </body>
+</html>
